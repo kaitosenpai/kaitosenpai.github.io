@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-color: #000000;
+        }
+        
+        p {
+            color: #adff2f;
+        }
+        
+        form {
+            text-align: center;
+            color: #adff2f;
+        }
+        
+        td {
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="text-align:center; font-size:large; color:#adff2f">
+        <h1>Control Panel</h1>
+    </header>
+    <main>
+        <form action="/result-handler" method="POST">
+            Username<br /><br />
+            <input type="text" placeholder="Username" minlength="6" maxlength="15" name="uname" required><br /><br /> Email
+            <br /><br />
+            <input type="email" placeholder="Email" name="email" required><br /><br /> Password
+            <br /><br />
+            <input type="password" placeholder="Password" name="passwd" minlength="8" required><br /><br />
+            <button type="submit">Sign Up</button><br /><br />
+        </form>
+        <table style="color:#adff2f" border="1" title="Table of Contents">
+            <tr>
+                <th width="50"></th>
+                <th>Table of Contents</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Log In Area</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Copyright Information</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p title="Copyright" style="font-family:monospace">
+            <br /><br />No part of this source shall be distributed without prior consent.<br /> All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
